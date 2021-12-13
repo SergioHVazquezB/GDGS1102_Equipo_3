@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ah-no-se-hola": {
+      "hosting": {
+        "project": [
+          "ah-no-se-hola"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ah-no-se-hola"
+  }
+}

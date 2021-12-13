@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1639380726475,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.396bf5655af1adf3.js",
+        "/manifest.webmanifest",
+        "/polyfills.620c2fc4529389a7.js",
+        "/runtime.6abb79878ed08cf9.js",
+        "/styles.5311c31f4e9fb4d7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/add_rounded.svg",
+        "/assets/icons/close_rounded.svg",
+        "/assets/icons/drag_indicator_rounded.svg",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/icons/redo_rounded.svg",
+        "/assets/icons/undo_rounded.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/add_rounded.svg": "5fbbcdaeef74844af3196651f159e28a7a6f555c",
+    "/assets/icons/close_rounded.svg": "f1dc7f0359af3f78d7c4f0b48b05fb4e5907e5e4",
+    "/assets/icons/drag_indicator_rounded.svg": "744cca0cd232ad1e0d484c9b0710a9b5c6123d31",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/icons/redo_rounded.svg": "75f99fc7aafa7df4e11b1d66756d830b760b1bf2",
+    "/assets/icons/undo_rounded.svg": "1b0b9bb1ba710031762c925bd94ed95ac648b1af",
+    "/favicon.ico": "dfaa921c9947bf8f23e1f61c9f033a88190891af",
+    "/index.html": "cd329996668f4d26cfce7b70d83981b5a73387a7",
+    "/main.396bf5655af1adf3.js": "d9e232cf59bfa96e1199c2cc2eea34e8b4609abc",
+    "/manifest.webmanifest": "2eed25ebf420f096fd7f29b875cd7d9b6c87ae74",
+    "/polyfills.620c2fc4529389a7.js": "fbf47a68bf5b651d9bfbeb6a499af26eaf5654b4",
+    "/runtime.6abb79878ed08cf9.js": "4563958a176b61bc08f25eada4de438dd22f49fe",
+    "/styles.5311c31f4e9fb4d7.css": "1c1ce04294972f13027eb10ba702d140769a0276"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
